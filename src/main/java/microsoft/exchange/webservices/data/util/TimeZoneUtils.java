@@ -44,7 +44,7 @@ public final class TimeZoneUtils {
   /**
    * Convert Olson TimeZone to Microsoft TimeZone Generated using Unicode CLDR project Example:
    * https://gist.github.com/scottmac/655675e9b4d4913c539c
-   *
+   * PW: updated missing with http://unicode.org/repos/cldr/trunk/common/supplemental/windowsZones.xml
    * @param timeZone java timezone (Olson)
    * @return a microsoft timezone identifier (ala Eastern Standard Time)
    */
@@ -463,6 +463,7 @@ public final class TimeZoneUtils {
     map.put("Etc/UTC", "UTC");
     map.put("Etc/Universal", "UTC");
     map.put("Etc/Zulu", "UTC");
+    map.put("Europe/Astrakhan","Astrakhan Standard Time");
     map.put("Europe/Amsterdam", "W. Europe Standard Time");
     map.put("Europe/Andorra", "W. Europe Standard Time");
     map.put("Europe/Athens", "GTB Standard Time");
@@ -485,6 +486,7 @@ public final class TimeZoneUtils {
     map.put("Europe/Jersey", "GMT Standard Time");
     map.put("Europe/Kaliningrad", "Kaliningrad Standard Time");
     map.put("Europe/Kiev", "FLE Standard Time");
+    map.put("Europe/Kirov", "Russian Standard Time");
     map.put("Europe/Lisbon", "GMT Standard Time");
     map.put("Europe/Ljubljana", "Central Europe Standard Time");
     map.put("Europe/London", "GMT Standard Time");
@@ -512,6 +514,7 @@ public final class TimeZoneUtils {
     map.put("Europe/Tallinn", "FLE Standard Time");
     map.put("Europe/Tirane", "Central Europe Standard Time");
     map.put("Europe/Tiraspol", "GTB Standard Time");
+    map.put("Europe/Ulyanovsk", "Astrakhan Standard Time");
     map.put("Europe/Uzhgorod", "FLE Standard Time");
     map.put("Europe/Vaduz", "W. Europe Standard Time");
     map.put("Europe/Vatican", "W. Europe Standard Time");
